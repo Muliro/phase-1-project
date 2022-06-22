@@ -9,6 +9,7 @@
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url('game-1.jpeg');
+    border-radius: 20px;
 }
 
 
@@ -23,15 +24,18 @@ h1{
 
 h2{
   padding:50px;
-  border-radius: 10px;
 }
 
 h2:hover{
-  background-color: cornflowerblue;
+  background-color: skyblue;
+  border-radius: 10px;
+  margin-left: 250px;
+  margin-right:250px;
 }
 
 h3{
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
 }
 
 .info-button{
@@ -47,4 +51,5 @@ h3{
 #info-section{
   background-image: url('game-1.jpeg');
   color:black;
+  border-radius: 20px;
 }
