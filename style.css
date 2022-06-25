@@ -23,7 +23,8 @@
 
 h1{
     text-align:center;
-    background-color: skyblue;
+    border-radius: 10px;
+    background-image: url('game-1.jpeg');
 
 }
 

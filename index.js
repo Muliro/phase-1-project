@@ -19,10 +19,9 @@ function displayBooks(){
         for(book of data){
             let bookContainer = document.createElement("h2");
             let buttons = document.createElement("input")
-            buttons.setAttribute("type", "submit")
+            buttons.setAttribute("type", "button");
             buttons.className = "info-button";
-            buttons.addEventListener("submit", displayInfo());
-            bookContainer.textContent = book.name;
+            bookContainer.textContent = `${book.name} has ${book.numberOfPages} pages`;
             bookContainer.appendChild(buttons);
             displayBlock.appendChild(bookContainer);
         }
@@ -30,10 +29,13 @@ function displayBooks(){
 }
 
 
-function displayInfo(){
-    console.log("working");
-}
+
 
 submitForm = document.getElementById("input-form"); // getting the form element
 
+
 submitForm.addEventListener("submit", informUser());  // event listener for email submit form
+
+function informUser(){ // callback function for the email submission
+    alert("Thank you for subscribing to our monthly newletter");
+}
