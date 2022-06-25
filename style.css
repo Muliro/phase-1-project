@@ -46,18 +46,20 @@ h3{
   border-radius: 10px;
 }
 
-.info-button{
+.comments{
   font-size: 10px;
   padding-left: 20px;
   margin-left: 20px;
 }
 
-.info-button:hover{
-  background-color:cornflowerblue;
-}
 
 #info-section{
   background-image: url('game-1.jpeg');
   color:black;
   border-radius: 20px;
+}
+
+
+html{
+  scroll-behavior: smooth;
 }

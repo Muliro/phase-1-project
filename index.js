@@ -18,24 +18,23 @@ function displayBooks(){
     .then(function(data){
         for(book of data){
             let bookContainer = document.createElement("h2");
-            let buttons = document.createElement("input")
-            buttons.setAttribute("type", "button");
-            buttons.className = "info-button";
+            let text = document.createElement("textarea")
+            text.setAttribute("placeholder", "optional comments");
+            text.className = "comments";
             bookContainer.textContent = `${book.name} has ${book.numberOfPages} pages`;
-            bookContainer.appendChild(buttons);
+            bookContainer.appendChild(text);
             displayBlock.appendChild(bookContainer);
         }
     })
 }
 
 
-
-
 submitForm = document.getElementById("input-form"); // getting the form element
 
 
-submitForm.addEventListener("submit", informUser());  // event listener for email submit form
+submitForm.addEventListener("click", informUser());  // event listener for email submit form
 
 function informUser(){ // callback function for the email submission
     alert("Thank you for subscribing to our monthly newletter");
 }
+
