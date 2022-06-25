@@ -33,3 +33,7 @@ function displayBooks(){
 function displayInfo(){
     console.log("working");
 }
+
+submitForm = document.getElementById("input-form"); // getting the form element
+
+submitForm.addEventListener("submit", informUser());  // event listener for email submit form
