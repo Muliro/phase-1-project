@@ -32,11 +32,11 @@ function informUser(e){ // callback function for the email submission
 }
 
 const images = document.getElementsByTagName("img")
-function bigImg(x) { // resizing images
-    x.style.height = "300px";
+function bigImg(x) { // resizing images mouse over event callback
+    x.style.height = "250px";
   }
   
-function normalImg(x){ //normalising images
+function normalImg(x){ //normalising images mouseout event callback
     x.style.height = "200px"
 }
 
