@@ -2,21 +2,24 @@
 #display-books{
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('game-1.jpeg');
+    background-image: url('game-4.webp');
     border-radius: 20px;
+    color:yellow;
 }
 
 #input-form{
     text-align:center;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('game-1.jpeg');
+    background-image: url('game-4.webp');
     border-radius: 10px;
+    color:yellow;
 }
 
 h1{
     text-align:center;
     border-radius: 10px;
-    background-image: url('game-1.jpeg');
+    background-image: url('game-4.webp');
+    color:yellow;
 
 }
 
@@ -25,7 +28,7 @@ h2{
 }
 
 h2:hover{
-  background-color: skyblue;
+  background-color: gray;
   border-radius: 10px;
   margin-left: 250px;
   margin-right:250px;
@@ -46,8 +49,8 @@ h3{
 
 
 #info-section{
-  background-image: url('game-1.jpeg');
-  color:black;
+  background-image: url('game-4.webp');
+  color:yellow;
   border-radius: 20px;
 }
 
@@ -56,8 +59,9 @@ html{
   scroll-behavior: smooth;
 }
 #about-author{
-  background-image: url('game-1.jpeg');
+  background-image: url('game-4.webp');
   border-radius: 20px;
+  color: yellow;
 }
 img{
   padding-right:60px;
