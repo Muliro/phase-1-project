@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", displayBooks()); //event listener 
 
 function displayBooks(){
     let displayBlock = document.getElementById("display-books");
-    fetch("https://www.anapioficeandfire.com/api/books")
+    fetch("https://www.anapioficeandfire.com/api/books") // fetch requett to the api
     .then(response => response.json())
     .then(function(data){
         for(book of data){
             let bookContainer = document.createElement("h2");
             let text = document.createElement("textarea")
-            text.setAttribute("placeholder", "optional comments");
+            text.setAttribute("placeholder", "optional comments"); // textarea placeholder
             text.className = "comments";
             bookContainer.textContent = `${book.name} has ${book.numberOfPages} pages`;
             bookContainer.appendChild(text);
