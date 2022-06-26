@@ -31,11 +31,11 @@ function informUser(){ // callback function for the email submission
 }
 
 const images = document.getElementsByTagName("img")
-function bigImg(x) {
+function bigImg(x) { // resizing images
     x.style.height = "300px";
   }
   
-function normalImg(x){
+function normalImg(x){ //normalising images
     x.style.height = "200px"
 }
 
