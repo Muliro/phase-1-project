@@ -25,9 +25,7 @@ function displayBooks(){
 
 
 submitForm = document.getElementById("input-form"); // getting the form element
-//submitForm.addEventListener("submit", informUser());  // event listener for email submit form
 function informUser(){ // callback function for the email submission event listener
-    event.preventDefault
     alert("Thank you for subscribing to our monthly newsletter");
 }
 
