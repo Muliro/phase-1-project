@@ -63,3 +63,7 @@ img{
   padding-right:60px;
   float:left;
 }
+a{
+  font-weight: bolder;
+  font-style: italic;
+}
