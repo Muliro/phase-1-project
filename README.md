@@ -19,6 +19,7 @@ all the novels in GEORGE R R Martin's book series, all ten of them.
 
 ********
 ## SetUp Instruction
+clone the repository then open index.html in your browser and you're good to go.
 ### Requirements
 * [Lang](html, css, javascript)
 * Text editor eg [Visual Studio Code](https://code.visualstudio.com/download)
