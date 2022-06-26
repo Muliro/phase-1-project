@@ -34,10 +34,12 @@ function informUser(e){ // callback function for the email submission
 const images = document.getElementsByTagName("img")
 function bigImg(x) { // resizing images mouse over event callback
     x.style.height = "250px";
+    x.style.width = "220px";
   }
   
 function normalImg(x){ //normalising images mouseout event callback
-    x.style.height = "200px"
+    x.style.height = "200px";
+    x.style.width = "200px";
 }
 
 
