@@ -1,12 +1,8 @@
-
-
-
-
 document.addEventListener("DOMContentLoaded", displayBooks()); //event listener forloaded document
 
 
 
-function displayBooks(){
+function displayBooks(){  // callback function for domcontent loaded event
     let displayBlock = document.getElementById("display-books");
     fetch("https://www.anapioficeandfire.com/api/books") // fetch requett to the api
     .then(response => response.json())
