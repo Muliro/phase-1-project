@@ -30,3 +30,14 @@ function informUser(){ // callback function for the email submission
     alert("Thank you for subscribing to our monthly newletter");
 }
 
+const images = document.getElementsByTagName("img")
+function bigImg(x) {
+    x.style.height = "300px";
+  }
+  
+function normalImg(x){
+    x.style.height = "200px"
+}
+
+
+
