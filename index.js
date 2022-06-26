@@ -25,9 +25,10 @@ function displayBooks(){
 
 
 submitForm = document.getElementById("input-form"); // getting the form element
-submitForm.addEventListener("submit", informUser());  // event listener for email submit form
-function informUser(){ // callback function for the email submission
-    alert("Thank you for subscribing to our monthly newletter");
+//submitForm.addEventListener("submit", informUser());  // event listener for email submit form
+function informUser(){ // callback function for the email submission event listener
+    event.preventDefault
+    alert("Thank you for subscribing to our monthly newsletter");
 }
 
 const images = document.getElementsByTagName("img")
